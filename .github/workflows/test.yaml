@@ -28,4 +28,5 @@ jobs:
     needs: [uno]
     steps:
       - name: Directorio
-        run: ls-al
+        run: ls -al
+    
